@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STARTUP</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Slider
+    ================================================== -->
+<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+
+<div id="logo3"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="125" height="27" viewBox="0 0 250 54">
+  <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAA2CAMAAADZGHTAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC91BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAYYF9qAAAA+3RSTlMAD4XI8s+cTy3Z2Nfbki/Kycs4fczFp2kNRdrceQq/KyCqr3MWTOvRVDzBtJaz6FJcoD3082Y/KvkQnl+mNiha9ZeC7zkksK6t1uSrrHV2f9SZnZu1smH+qJqx/fcHAQ5AxMJwouPu9gV+RE66/CNW7FhZiY5yYBl7uGwlgAJTj4ZtYhtuPp9830ZJvpSjXXrnBided1AMZSKVk1Xi8DNj6c7T+kEpihQwCxcc6raHiIRxCAPhJjI3FR/tmDoYa5CkS2d4qS6hEmqNgUqMQm8ddDFk3dDm+xPSIYP4x0PGi723LLylSFvDGjsEu9VowAneVxGRUUc18c00TbpHqkoAAAABYktHRACIBR1IAAAACXBIWXMAAC4jAAAuIwF4pT92AAAKp0lEQVRo3u2beVxVxxXHR3yiaBBQXCIaVCI2QoS4IsYIWhQlanABkcUICrhgowIuEYmSKFpQVNSo0bZxN25A1CSgUbHFrZK6IEbR1FgbY2tebLO080/POTNz732PB9rPp+nL5+M7f7z7m3Pn3jvf2e5c5sAYYw2cGppMpkbOjUGzJi5Nm2n2jCsja+7m5u7Rgilr6emO5tGqdZu25Hi2nX5NM6/2jHV4zs3NzZvOdXRz8+gkBV3VsLPP8+znYV18ubSuv2DsBW60biKLH2p/7YoX9QzdA9ARaHHRS1CbeOxBmZuA6qmEtF697Q2tFU1ZZ8b6WFC4U5a+pIP6qUuCjVmgulh/i4teZqytCY4DKPMroJopodlAe2OjtYaChIQO8hsMx18yFjZkaHinYaCHR7wa7jeCsowUxR1lRH8tcvSYsegdDo4W48LDO3lCwhcuGhtVN3r0+JgxE2JBxMXbm5uxhO5QECcQE1+flKicSeCbrOeZAl00mfOUVAP6VBR9sb6mSe900DOkrgs9DcVMuB//lb3BAf0NKEeriaQVGpsKvle1LLMgNXsO/KiJDtHTSbmCypDeTH1uqBt9Lqp5qursbNjh+eD5C940+BaCK1wlsqCR4tgicL1oQM8m9RaoxdK7BLTqN3Wi56B6G9Q8e3Mzw+zT+R3b6DjxLRVzdo6OvoxULqjl/w06ubqCmmVvbrQVv1bweQm20J0h0YWxSDjk6+gzVmZmrmoFomB1/ehrjOixGWv7FyaCSJlob2xh65bKV3t/G+jrQXuhiAMRr6FrtkHdxYjeIAUSTUi+C8pFoWu2wN7MmnVY4RRnKLkRPRt0u43BwZuwITdbo7/XUruHET1+i7ak2QqqqTV6nr2ByfKXiuNvoES/rY0+0WK18jsNPToO60oNAWt09j4kxpPaiMtEDT0tKHbbe5222xuabAfn76/qC2InrlNqo2daoIuWRPQxu3btBvjYANvoIzDz1D0saxmKhQo9beveD+YmPFnJfnLbR0Qe+1/Dw8ba6DgnJR7Izs5OP+gFcpJCPwTHIrym2CZ6SRCe29ftQ1oCx2voqU9YrP+HZQ/Wm9R0uBb6EVDbZHmPYp5dzPBefwaEq010FmDdVQzv9Z+LfTQ6TpbQ82Pl88eOgKLkE1DOyo2ZSuE4Qw1k+mILlGd95IJe2tam8rbDyoSjOSY62hvX0o4d//RExORsw6r6ZIx/DH1X7hkdGhqqFfdUjH8kLmVWwmn8YGPrN5X6Ly2XZ8si/SMzDLfNysw7PaRTnvZ9eiw0tDSvH3OYwxzmMIc5zGEO+99b2OaAp9E2/178BfJptD8wVmjvMtjJSsVHx9NomxireOXptL32nmQd5jCHOcxhDvvJrPmZg2fPnTd6jhbuvDDq/Got3X9kUnkflQgoTypsrLn/qNzTy5NG0rZdRYaPz8X15GvRPqmc9mIrRxS1by7ygRS+Yz4Znx3XnpG67tzZg737GksRWJhULkMXvAuLkjRrj1v9iwqLyv+kZV1z/ED6oYH663pFuU+SlH3Ki0aGSZ1zac6m9HMn98jkgHFihXO5jbquyxXhuaquZlWQipb6Gp6q1txcummPqopqElVHcuK+03yqF65tbE1XPgrcaSAvLx8unhmxWyv+dXKIPc4Mi8UYbpZ4wfFzmdN7hvCHuKrbdYPUWSExhCBTyEE3RL43Dl7HZEv9jpOepQwRuudmpbiG/qq+SugTqMfq7kHCPRq1trMYK3YbznHcnQer0S+qUb4BIHqJ+LOZt/Rn3v5IFr89Jenv3qyNBfoc8HwBxyKR8XP9TIHcCnsZE6dIfgpKeMfp+bpD8oDxllSiPxs9vhV0UTPUQSSLye+nu2NJria3VQAFbeQEa+h8hJLBCt0k0Icbn3lHotO2FR9COio6LS0uFvteUFVaNIY0fQkJ0SsXiMuixUEMwLuk6e/+2QqdtoRip8RS56L9Rmj/QVs7Tg/m3OMak9+xly82eXf2fFQTdEZeg3KJNTr/C8p7T4IetMY2OjWHX2CYd7mbHmK0SNYEDZ0OlTk5u0ZB6q/Pf5VT2daIfp+4D9yvXO5Mo/RrHT3RAh3b1H1uVuXA4BC+V8b/UXQPG5hIm6BYedXx2kjlh3XGhij31UJvpLfbY9D5lgRb6DTogwVw19ZqqEOj3zwIJ+5qg3+JNmiM6I3wahHDEYXyMx0d4xd1dIxkeUD5KqG1juF5PT4AbDl61sgExhO4Ssae2zgvExvxRvSQKupja8G37fHoOKSm1ULHXH9jVnaY465mHDToV8qFUW1fWqPvwV3dv0snzm65Ep0GwHYD+lB0jFs5U2SdDYkbFvF7F9RkpZq9WjLu9yC9BVrZ3YDuN5/yt+P8ys3HoD/EYIveVLmW6BO4jRgTjEwLZDHabFUXeg8cscq5HenCBHoB9egclqfQj8jqb7XhG0gdN4KS5Ru72AZImCVjDIYZsAr4aTzWgH4X91tZKvx8u/8x6Kdon7rDrlrok0CstSJ/BH1oXypbp8ZZneizVPOgfYxP6CHQbxRjcFtXeoWJGT4pSMJfDWTsFNfjSIQtxU6hEhji5iUZx7JPOPdJh0rDV6qGfhNHeeFtzj2x5Qkdg2qrxOpiHje83FzZP3DG3lFljf7QBjr2PnyvmeH4Qn3oAcbWm4lgRwU6f0QD9p/3NHT2waYCCd9bTDBlxkdiLMhg4+2/kIyeIoyC89dZgQG9Hbsk3N+hW0OXAxRfnfkKvZQV45O9UqzRx6gK0q2kJ/ScFd8P8I5QRagLHfvYjbbSeQYfXSHRj7AV2AhXdHTG4gNiMCIC2jsLoyo8pfsV/KEl1CXh6MjVDAKMboylcVEvww3oUOHb0G0iN6FPxHz3tfKlK3R/WEjKSrdExwKrpj0qFlGYP5arnyb1oOPsw4cKX8IPahJH9N1iQHOFfl5u9mNXhDUKviq5E9ZT2BA+HU94oWcRqjv4NkgplozuYgEFzZNgRAdYev+fIDehUwTOOJxKWmCtLDegU+lroYehKwUDq4pPytCMB9xoq+pDp7f5IVSPTqN8R6HjN0O1Ad2LX6A39V7sJ7AIo1rdcnojhj7y43CijPImjrxIa0E58wp0OrWXlVih08xZSW6BTqueAqe3x+MxhBnR2WQb6HKZWl36Eg4Il0p5SxMZTUv1oadexSyXby/OxvbHqH4D+je+Gjq9lt2mrkvC6aMXOKalGGoXw8NpWtdMLjQEOvuRZn9rdHaLwo509OJGhjtssETHGPPaC1ljBGaKN2PwsuBj2pLdQd+39aCzN0MMV/94zQJdtiSiLzRy7aQBPUwlXeT3Z5cpyhOrPuaSxUuuX00NfGSWpOHELt3JOLhraoqFO1nm3689QxSanef0/xFMftdR09B/m8hoWX0vZHKWiKzlFfJeSJFG37YYhXdFoePstUzOSQ+1qyPlWVy0/ouUE7rvofp3Oy3bBZktyX2KyXTVY9XX6q7Fb7kVmEy+V5yvK88Ds7mz0qzkljnXWbkfGN16qnfihyZTskv+9zJdZjbnyk+8xZfNuXOoEsxmc7X26Xx3WLLpB5fOFGo2cIo5V1uxNr9sNvvSII3KNedqAZr5kIhSiTPPweO2uISrf0xg2blm8w4hI+Ax35HKipowrLsp2Ws/tMd/AL1vsMA0HbU6AAAAAElFTkSuQmCC" width="250" height="54"/>
+</svg></div>
+</div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home" class="page-scroll">Hem</a></li>
+        <li><a href="#about-section" class="page-scroll">Vad vi gör</a></li>
+        <li><a href="#services-section" class="page-scroll">Vilka är vi?</a></li>
+        <li><a href="#works-section" class="page-scroll">Referenser</a></li>
+        <li><a href="#contact-section" class="page-scroll">kontakt</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- Header -->
+<header class="text-center" name="home">
+  <div class="intro-text">
+    <div class="col-md-2"></div>
+<div class="col-md-10"><class="img-responsive center-block">
+    <h1 class="wow zoomIn"><span class="brand">
+      <br>En studentdriven byrå som hjälper Startups att positionera sig bland jättar</span></h1> </div>
+    <p class="wow fadeInDown" data-wow-delay="600ms"></p>
+    <div class="clearfix"></div>
+ </div>
+</header>
+<!-- Services Section -->
+<div id="services-section" class="text-center">
+  <div class="container">
+    <div class="section-title center wow fadeInDown">
+      <h2>VAD VI GÖR</h2>    
+      <div class="clearfix"></div>
+    </div>
+    <div class="row wow fadeInDown" data-wow-delay="200ms">
+      <div class="col-md-4 col-sm-6 service"> <i class="fa fa-exclamation-circle"></i>
+        <h5>WHY</h5>
+        <p>Vad gör er Startup unik? Kommunikation är ett redskap för att människor ska förstå företaget som det vill bli uppfattat, men också för att någon ska veta om att det existerar överhuvudtaget. Genom att positionera Startupen och skapa en engagerande berättelse förstår människor varför de bör välja just er.
+</p>
+      </div>
+      <div class="col-md-4 col-sm-6 service"> <i class="fa fa-info-circle"></i>       
+       <h5>HOW</h5>
+        <p>Genom att skapa publicitet via rätt kanaler etablerar och utvecklar vi fördelaktiga relationer. Detta uppnås genom passande utformning av pressmeddelanden, sociala medier och innovativa PR-lösningar.  Era styrkor utgör grunden för våra kommunikativa lösningar.</p>
+      
+      </div>
+
+      <div class="col-md-4 col-sm-6 service"> <i class="fa fa-question-circle"></i>
+        <h5>WHAT</h5>
+
+<p>
+Vi på Startup Communications tror att goda relationer skapas och bevaras genom ett starkt varumäke, inte endast via en produkt. Därför arbetar vi med att strategiskt skapa innehåll och attribut för att på ett önskvärt sätt skapa dialog med konsumenter och media. Genom att kartlägga konkurrenter och målgrupper skapar vi anpassad kommunikation för rätt Startup. </p>
+
+
+      </div>
+      &nbsp;
+<br>
+&nbsp;
+<br>
+    </div>
+    <!--<div class="space"></div>-->
+    
+  </div>
+</div>
+<!-- About Section -->
+<div id="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center center wow fadeInDown">
+        <h2>Vilka är vi?</h2>
+      </div>
+      <div class="row wow fadeInDown" data-wow-delay="200ms">
+        <div class="col-md-6"> <img src="img/ollesofia.jpg" class="img-responsive center-block"> </div>
+        <div class="col-md-6">
+          <div class="about-text">
+            <h4><span class="color">OLLE&SOFIA</span></h4>
+            <p>Vi läser kandidatprogrammet i strategisk kommunikation vid Lunds universitet. Den tvärvetenskapliga  utbildningen har bland annat försett oss med färdigheter inom marknadskommunikation, PR och organisations-kommunikation. Med andra ord så har vi kunskaper inom att planera och
+genomföra kommunikation
+i syfte att nå organisatoriska mål.</p></span> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+&nbsp;
+<br>
+&nbsp;
+<br>
+<!-- Achievements Section
+<div id="achievements" class="text-center">
+  <div class="container">
+    <div class="space"></div>
+    <div class="row wow fadeInDown" data-wow-delay="400ms">
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">120</span>
+          <h4>Happy clients</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">4,600</span>
+          <h4>Working hours</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">340</span>
+          <h4>Projects completed</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">23</span>
+          <h4>Awards won</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+Portfolio Section -->
+<div id="works-section">
+  <div class="container"> <!-- Container -->
+    <div class="section-title text-center wow fadeInDown">
+      <h4>Referenser</h4>
+      <hr>
+      <div class="clearfix"></div>
+    </div>
+   <!-- <div class="categories wow fadeInDown">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">Allt</a></li>
+            <li><a href="#" data-filter=".web">kommunikation</a></li>
+            <li><a href="#" data-filter=".app">Kommunikation</a></li>
+            <li><a href="#" data-filter=".branding">Kommunikation</a></li>
+          </ol>
+        </li>
+      </ul>-->
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container">
+    <div class="row">
+      <div class="portfolio-items">
+         <div class="col-md-6 col-md-offset-3">
+          <div class="portfolio-item wow fadeInDown" data-wow-delay="200ms">
+            <div class="hover-bg"> <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>BoRank</h4>
+                <p>Kommunikationsplan</p>
+                <div class="clearfix"></div>
+              </div>
+              <img src="img/borank3.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div></div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact-section">
+  <div class="container">
+    <div class="section-title text-center wow fadeInDown">
+      <h2>Kontakt</h2>
+      <hr>
+      <div class="clearfix"></div>
+    </div>
+    <div class="col-md-4 wow fadeInDown" data-wow-delay="200ms">
+      <h3>Kontakta oss</h3>
+      <div class="space"></div>
+      <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Bästa gatan<br>
+       Stockholm, 12932</p>
+      <div class="space"></div>
+      <p><a href="mailto:info@startupcommunications.com?Subject=Hello%20again" target="_top"><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i></a>info@startupcommunications.se</p>
+      <div class="space"></div>
+      <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+44 800 123 1234</p>
+    </div>
+    <div class="col-md-8 wow fadeInDown" data-wow-delay="200ms">
+      <h3>LÄMNA ETT MEDDELANDE</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Skicka meddelande</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="social-section">
+  <div class="container">
+    <div class="social">
+      <ul>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--<div id="footer" class="text-center">
+  <div class="container">
+
+  </div>
+</div>-->
+
+<!-- Portfolio Modals --> 
+<!-- Use the modals below to showcase details about your portfolio projects! --> 
+
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Borank</h2>
+            <p class="item-intro">Kommunikationsplan</p>
+            <a href="http://borank.se">
+            <img class="img-responsive img-centered" src="img/borank5.png" alt="">
+          </a>
+            <p>"Startup Communications utformade en väl genomtänkt kommunikationsplan som vi implementerade med gott resultat. Planen bestod av en övergripande strategi kring hur vi ska positionera vårt varumärke samt hur vi ska kommunicera med våra intressen. Sofia och Olle kunde utöver handfasta kommunikationslösningar öven ge oss värdefulla insikter om vår marknad, vilket gjorde att vi kunde vässa vårt kunderbjudande ytterligare."</p>
+            <ul class="list-inline">
+              <li><span>Manne Larsson</span>: CO-Founder Borank</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Stäng projekt</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/02-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro graeco urbanitas reformidans quoid.</p>
+            <ul class="list-inline">
+              <li><span>Client</span>: John Doe</li>
+              <li><span>Service</span>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/03-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro graeco urbanitas reformidans quoid.</p>
+            <ul class="list-inline">
+              <li><span>Client</span>: John Doe</li>
+              <li><span>Service</span>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/04-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro graeco urbanitas reformidans quoid.</p>
+            <ul class="list-inline">
+              <li><span>Client</span>: John Doe</li>
+              <li><span>Service</span>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/05-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro graeco urbanitas reformidans quoid.</p>
+            <ul class="list-inline">
+              <li><span>Client</span>: John Doe</li>
+              <li><span>Service</span>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/06-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro graeco urbanitas reformidans quoid.</p>
+            <ul class="list-inline">
+              <li><span>Client</span>: John Doe</li>
+              <li><span>Service</span>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 7 -->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Manne Larsson, CO-founder Borank.</p>
+            <img class="img-responsive img-centered" src="img/borank5.png" alt="">
+            <p>"Startup Communications utformade en väl genomtänkte kommunikationsplan som vi implementerade med gott resultat. Planen bestod av en övergripande strategi kring hur vi ska positionera vårt varumärke samt hur vi ska kommunicera med våra intressen. Sofia och Olle kunde utöver handfasta kommunikationslösningar öven ge oss värdefulla insikter om vår marknad, vilket gjorde att vi kunde vässa vårt kunderbjudande ytterligare."</p>
+            <ul class="list-inline">
+              <li><span>Client</span>: John Doe</li>
+              <li><span>Service</span>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 8 -->
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Borank</h2>
+            <p class="item-intro">Kommunikationsplan.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/08-preview.jpg" alt="">
+            <p>Startup Communications utformade en väl genomtänkte kommunikationsplan som vi implementerade med gott resultat. Planen bestod av en övergripande strategi kring hur vi ska positionera vårt varumärke samt hur vi ska kommunicera med våra intressen. Sofia och Olle kunde utöver handfasta kommunikationslösningar öven ge oss värdefulla insikter om vår marknad, vilket gjorde att vi kunde vässa vårt kunderbjudande ytterligare."
+            </p>
+            <ul class="list-inline">
+              <li><span>Client</span>: John Doe</li>
+              <li><span>Service</span>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/wow.min.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.js"></script> 
+
+<!-- Javascripts
+    ================================================== --> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
